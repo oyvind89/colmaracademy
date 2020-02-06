@@ -44,3 +44,87 @@ header .right li {
 header img.logo {
     height: 2rem;
 }
+
+.topcontent {
+    display: flex;
+    align-items: center;
+}
+
+img.bigimg {
+    margin: 2rem 1.5rem;
+    width: 60%;    
+}
+
+.content .top_sidecontent {
+    margin-right: 4rem;
+}
+
+.top_sidecontent h1, .top_sidecontent h2, .top_sidecontent p {
+    margin: 1.5rem 0;
+}
+
+p.button {
+    width: 100%;
+    padding: 0.5rem;
+    text-align: center;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: midnightblue;
+    color: white;
+}
+
+.midtopcontent {
+    display: flex;
+    width: 100%;
+}
+
+.midtopleft {
+    width: 60%;
+    margin: 2rem 1.5rem;
+}
+
+.midtopleft img {
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.midtopleft p.quote {
+    margin: 1.5rem 0;
+}
+
+.midtopleft p.author {
+    margin-bottom: 2rem;
+}
+
+.midtopright {
+    width: 40%;
+    margin-top: 1rem;
+}
+
+.midtopright_content {
+    margin: 1rem 1rem 2rem;
+}
+
+.midtopright_part {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.midtopright_small {
+    width: 35%;
+    height: auto;
+    margin: 0 1rem;
+}
+
+.midtopright_part .midtopright_sidecontent {
+    width: 65%;
+    padding-right: 2rem;
+}
+
+.midtopright_sidecontent p.info {
+    margin: 0.5rem 0;
+}
+
+
