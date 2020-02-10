@@ -6,6 +6,7 @@
 
 html {
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 768px) {
@@ -16,6 +17,7 @@ html {
     .mobile_header {
         width: 100%;
         height: 4rem;
+        background-image: linear-gradient(cornflowerblue,deepskyblue);
     }
 
     .mobile_header ul {  
@@ -29,6 +31,8 @@ html {
 
     .mobile_top {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .mobile_top img {
@@ -38,7 +42,7 @@ html {
     }
 
     .mobile_top_text {
-        margin: 2rem 1rem;
+        padding: 2rem 1rem;
     }
 
     .mobile_top_text h2 {
@@ -49,16 +53,18 @@ html {
         width: 100%;
         text-align: center;
         padding: 0.5rem;
-        background-color: midnightblue;
-        color: white;
+        background-color: deepskyblue;
+        color: black;
     }
 
     .mobile_midtop {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .mobile_midtop_content {
-        margin: 1rem 1rem 2rem;
+        padding: 1rem 1rem 2rem;
     }
 
     img.mobile_midtop_img {
@@ -87,30 +93,35 @@ html {
 
     .mobile_midbot {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .mobile_midbot h1 {
         text-align: center;
-        margin: 2rem 1rem 1rem;
+        padding: 2rem 1rem 1rem;
     }
 
     .mobile_midbot_buttons {
-        margin: 0 1rem 2rem;
+        padding: 0 1rem 2rem;
     }
 
     .mobile_midbot_button {
         text-align: center;
         padding: 1rem 1rem 1.5rem;
         margin-bottom: 0.5rem;
-        background-color: cornflowerblue;
+        background-color: deepskyblue;
+        color: black;
     }
 
     .mobile_bot {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
     
     .mobile_bot h1 {
-        margin: 2rem 0 1rem;
+        padding: 2rem 0 1rem;
         text-align: center;
     }
 
@@ -122,6 +133,7 @@ html {
 
     footer.mobile_footer {
         width: 100%;
+        background-image: linear-gradient(cornflowerblue,deepskyblue);
     }
 
     .mobile_footer_text {
@@ -142,6 +154,7 @@ html {
     header {
         width: 100%;
         height: 4rem;
+        background-image: linear-gradient(cornflowerblue,deepskyblue);
     }
 
     header .heading {
@@ -165,7 +178,7 @@ html {
     }
 
     header li.text {
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.25rem;
     }
 
     header .right {
@@ -181,11 +194,29 @@ html {
         height: 2rem;
     }
 
+    header li.text {
+        font-weight: bold;
+    }
+
+    header li.colmar {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: black;
+    }
+
+    header li.academy {
+        font-size: 1.5rem;
+        font-weight: bolder;
+        color: grey;
+    }
+
     .topcontent {
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
     
     .topcontent_img {
@@ -212,13 +243,16 @@ html {
         text-align: center;
         border: 0;
         border-radius: 0.5rem;
-        background-color: midnightblue;
-        color: white;
+        background-color: deepskyblue;
+        color: black;
+        font-weight: bold;
     }
 
     .midtopcontent {
         display: flex;
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .midtopleft {
@@ -272,15 +306,17 @@ html {
 
     .midbotcontent {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .midbotcontent h1 {
-        margin-top: 2rem;
+        padding-top: 2rem;
         text-align: center;
     }
 
     .midbot_big {
-        margin: 1rem 3rem;
+        padding: 1rem 3rem;
         display: flex;
         flex-wrap: wrap;
     }
@@ -304,15 +340,17 @@ html {
     }
     .botcontent {
         width: 100%;
+        background-image: linear-gradient(black, midnightblue);
+        color: cornflowerblue;
     }
 
     .botcontent h1 {
         text-align: center;
-        margin-top: 2rem;
+        padding-top: 2rem;
     }
 
     .botcontent_big {
-        margin: 2rem 0;
+        padding: 2rem 0;
         display: flex;
         width: 100%;
     }
@@ -354,10 +392,11 @@ html {
 
     footer {
         width: 100%;
+        background-image: linear-gradient(cornflowerblue,deepskyblue);
     }
 
     .footer_content {
-        margin: 1rem 1.5rem;
+        padding: 1rem 1.5rem;
         display: flex;
         flex: 0 0;
         justify-content: space-between;
